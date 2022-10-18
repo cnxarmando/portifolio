@@ -537,6 +537,8 @@
             <form class="formcontato__form">
               <input
                 class="formcontato__input"
+                required
+                maxlength="50"
                 type="text"
                 id="nome"
                 name="nome"
@@ -544,13 +546,16 @@
               />
               <input
                 class="formcontato__input"
+                required
                 type="email"
                 id="email"
                 name="email"
-                placeholder="Email"
+                placeholder="email@email.com"
               />
               <input
                 class="formcontato__input"
+                required
+                maxlength="50"
                 type="text"
                 id="assunto"
                 name="assunto"
@@ -558,13 +563,15 @@
               />
               <textarea
                 class="formcontato__textarea"
+                required
+                maxlength="300"
                 rows="5"
                 cols="40"
                 id="mensagem"
                 name="mensagem"
                 placeholder="Sua mensagem"
               ></textarea>
-              <button type="submit" class="formcontato__botao">
+              <button type="submit" class="formcontato__botao" >
                 <p class="enviar-mensagem">Enviar mensagem</p>
               </button>
             </form>
